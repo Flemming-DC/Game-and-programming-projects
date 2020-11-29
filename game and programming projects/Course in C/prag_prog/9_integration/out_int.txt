@@ -1,0 +1,4 @@
+numberic integral of ln(x)/sqrt(x) = -4.00000000
+exact integral of ln(x)/sqrt(x)    = -4.00000000
+estimated error =  0.00000000
+actual error    = -0.00000000

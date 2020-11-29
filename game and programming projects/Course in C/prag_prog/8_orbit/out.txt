@@ -1,0 +1,12 @@
+
+ integrating the logistic equation from 0 to 3 with y_0=0.5 gives:
+logistic(10)=0.999956
+logistic_correct_result(10)=0.999955
+
+ integrating the orbital equation for (1) circular motion, (2) elliptical motion og (3) general relativistic motion
+u_cirkel(180)=1
+u_cirkel_correct_result(180)=1
+u_ellipse(180)=1.4014
+u_ellipse_correct_result(180)=1.40058
+u_GR(180)=0.621651
+

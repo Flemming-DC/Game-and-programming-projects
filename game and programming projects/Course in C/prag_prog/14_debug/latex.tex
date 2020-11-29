@@ -1,0 +1,31 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+
+\begin{document}
+\title{Roots of tan(x)}
+\author{Flemming - 201508887}
+\date{}
+\maketitle
+\begin{abstract}
+We will find some roots in tan($x$).
+\end{abstract}
+
+\section{explaination}
+
+The invers tangent can be found numerically by determining the roots of tan$^{-1}(a)-x=0$. 
+This can in turn be done with the gsl one or multidimensional root-finding routines. 
+The most efficient choice is presumably to use the one-dimensional root-finder with derivatives. 
+However, we haven't chosen that method since we the program anyway ran so quickly that speed was not an issue.
+Instead we have chosen the \texttt{gsl\_multiroot\_fsolver\_hybrids} routine.
+
+\section{illustration}
+A graph of the inverse tangent can be seen on figure \ref{plot}.
+
+\begin{figure}[h!]
+\input{plot-cairo.tex}
+\label{plot}
+\end{figure}
+
+
+\end{document}
+

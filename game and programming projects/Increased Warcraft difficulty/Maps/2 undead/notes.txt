@@ -1,0 +1,7 @@
+undead05 could use a cool hero in reforged, but doesn't since it shows up as Arthas in classic
+
+undead06
+ - reforged: red dragons have color set to neutra passive and size set to 1.2
+ - reforged: red dragon roost size set to 1.3
+
+

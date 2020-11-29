@@ -1,0 +1,35 @@
+matrix to be diagonalized = 
+   	3.88131   	0.76068   	3.58908   	0.346559
+   	0.76068   	3.48169   	4.38153   	3.37761
+   	3.58908   	4.38153   	-0.61714   	-0.055577
+   	0.346559   	3.37761   	-0.055577   	1.87779
+
+array of column-eigenvectors = 
+   	0.46596   	-0.742972   	-0.384735   	-0.287843
+   	0.662905   	0.407238   	0.386815   	-0.495064
+   	0.478798   	-0.190681   	0.36969   	0.773125
+   	0.337922   	0.495773   	-0.752119   	0.272646
+
+list of eigenvalues = 
+ 	8.9028 	4.15424 	0.34528 	-4.77867
+
+test: D = V^T*A*V = 
+   	8.9028   	-1.11429e-08   	-6.57109e-10   	2.23531e-08
+   	-1.11429e-08   	4.15424   	-2.46636e-09   	-9.10818e-09
+   	-6.57109e-10   	-2.46636e-09   	0.34528   	0
+   	2.23531e-08   	-9.10818e-09   	-3.05311e-16   	-4.77867
+
+array of matrix sizes and diagonalization times for cyclic method (1st and 2nd row) and value-by-value mtehod for one eigen value (3rd and 4th row) and for all eigenvalues (5th and 6th row) = 
+100	0.078125   	1000	0.265625   	50	0.25
+200	0.609375   	2000	1.125   	100	4.25
+300	2.0625   	3000	2.65625   	150	21.3594
+400	5.07812   	4000	5.5		200	79.0781
+500	11.0625   	5000	6.9375   	
+600	18.3125   	6000	11.7188   	
+the sizes and times roughly follow a O(n^k) relation, where k=3 for cyclic method k=2 for value-by-value for one eigenvalue and k=4 for value-by-value for all eigenvalues. This can easily be seen on a log-log plot
+
+time_of_diagonalization = 0
+
+to obtain the largest eigenvalues rather than the lowest, you must enter the sub-jacobi file and flip the sign of both inputs to tan2
+
+to use the cyclic method instead of value-by-value, you must enter the main file and replace'sub_jacobi(A, diag, V, required);' with 'jacobi(A, diag, V);'

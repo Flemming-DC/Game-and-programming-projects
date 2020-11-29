@@ -1,0 +1,1 @@
+Solving the radial schrödinger equation with E=0-0.5 up to r=10 gives 0.000453155.The correct solution is 10*exp(-10)=0.000453999.

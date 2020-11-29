@@ -1,0 +1,5 @@
+sum_up_float = 15.4037
+sum_down_float = 18.8079
+sum_up_double = 20.9662
+sum_down_float = 20.9662
+sum_up_float og sum_down_float er forskellige, da vi opsummere en hel masse tal, som er så tæt på nul, at de ligger udenfor float's precision, hvilket generer tilfældig støj. Sum_up_double og sum_down_double er derimod ens, pga double's højere præcision.

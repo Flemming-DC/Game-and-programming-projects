@@ -1,0 +1,76 @@
+we will integrate some functions from 0 to 1 with absolute error = 1e-08 and relative error = 1e-08
+
+adaptive_integrator gives:
+
+ integrand: sqrt(x)
+              Q = 0.6666666667
+          exact = 0.6666666667
+          calls = 1328
+estimated error = 1.66667e-08
+   actual error = 3.11763e-11
+
+ integrand: 1/sqrt(x)
+              Q = 2
+          exact = 2
+          calls = 605428
+estimated error = 3e-08
+   actual error = 1.76503e-12
+
+ integrand: ln(x)/sqrt(x)
+              Q = -4
+          exact = -4
+          calls = 2066224
+estimated error = 5e-08
+   actual error = 9.53904e-13
+
+ integrand: 4*sqrt(1-(1-x)^2)
+              Q = 3.141592654
+          exact = 3.141592654
+          calls = 3112
+estimated error = 4.14159e-08
+   actual error = 1.75637e-11
+
+
+ clenshaw_curtis gives:
+
+ integrand: sqrt(x)
+              Q = 0.6666666667
+          exact = 0.6666666667
+          calls = 2360
+estimated error = 1.66667e-08
+   actual error = 2.09192e-11
+
+ integrand: 1/sqrt(x)
+acc=1e-08 eps=1e-08
+              Q = 1.999999988
+          exact = 2
+          calls = 42828
+estimated error = 3e-08
+   actual error = 1.24722e-08
+
+ integrand: ln(x)/sqrt(x)
+              Q = -3.999999509
+          exact = -4
+          calls = 118560
+estimated error = 5e-08
+   actual error = 4.91161e-07
+
+ integrand: 4*sqrt(1-(1-x)^2)
+              Q = 3.141592654
+          exact = 3.141592654
+          calls = 4136
+estimated error = 4.14159e-08
+   actual error = 1.26508e-11
+
+
+ gsl_integrator gives:
+
+ integrand: 4*sqrt(1-(1-x)^2)
+Q               =  3.141592653589792672
+exact	   =  3.141592653589793116
+calls           = 315
+estimated error =  0.000000000000005329
+actual error    = -0.000000000000000444
+
+
+ We note that chenshaw_curtis requires fewer calls, than adaptive_integrator, when applied to 1/sqrt(x) or ln(x)/sqrt(x), as expected from the fact that it is designed to deal effectively with singularities.

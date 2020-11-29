@@ -1,0 +1,29 @@
+my min int = -2147483640
+my min int = -2147483641
+my min int = -2147483642
+my min int = -2147483643
+my min int = -2147483644
+my min int = -2147483645
+my min int = -2147483646
+my min int = -2147483647
+
+my min int = -2147483648
+
+my max int = 2147483640
+my max int = 2147483641
+my max int = 2147483642
+my max int = 2147483643
+my max int = 2147483644
+my max int = 2147483645
+my max int = 2147483646
+
+
+e_for_double   = 2.22045e-16
+e_DBL_EPSILON = 2.22045e-16
+e_while_float  = 1.19209e-07
+e_FLT_EPSILON = 1.19209e-07
+e_while_double = 2.22045e-16
+e_DBL_EPSILON  = 2.22045e-16
+e_while_long   = 2.22045e-16
+e_LDBL_EPSILON = 1.0842e-19
+

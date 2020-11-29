@@ -1,0 +1,11 @@
+
+ the following equation-system will be integrated from 2 to 10:
+y1' = exp(x)
+y2' = x
+y3' = 1./x
+
+first step =   5.4633   0.02005   -1.3019
+y(last step) = 22578.6	50.2479	2.30506	
+x(last step) = 10.0248
+number of steps = 112
+the path has been stored in path.txt and is shown on the plots

@@ -1,0 +1,7 @@
+set term TERM
+set out 'OUT'
+set xlabel 'x'
+set ylabel 'y'
+set tics out
+set size 0.6,0.6
+plot [0.5:1.5] 'out_integrate.txt' using 1:2 with lines title 'error-function'

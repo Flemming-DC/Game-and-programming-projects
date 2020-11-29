@@ -1,0 +1,2 @@
+Orc04: Furbolg chieftain looks way too big in reforged editor, but it looks fine in classic game.
+Orc05: same problem with Cenarius.

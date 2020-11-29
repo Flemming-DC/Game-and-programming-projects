@@ -1,0 +1,45 @@
+
+ Searching for roots in fun with jacobian
+number of steps = 419
+norm of f(x_root) = 5.90072e-06
+x_root = 9.10549	1.09824e-05	
+
+ Minimizing rosen with jacobian
+number of steps = 91
+norm of f(x_root) = 5.24576e-06
+x_root = 1	1	
+
+ Minimizing himmel with jacobian
+number of steps = 25
+norm of f(x_root) = 6.04384e-06
+x_root = 3	2	
+
+ Searching for roots in fun without jacobian
+number of steps = 339
+norm of f(x_root) = 6.15815e-06
+x_root = 9.10546      1.09824e-05      
+
+ Minimizing rosen without jacobian
+number of steps = 91
+norm of f(x_root) = 5.24577e-06
+x_root = 1      1      
+
+ Minimizing himmel without jacobian 
+number of steps = 25
+norm of f(x_root) = 6.04386e-06
+x_root = 3      2      
+
+ Searching for roots in fun with gsl_solver
+number of steps = 33
+norm of f(x_root) = 1.19895e-06
+x_root = 9.10615	1.09816e-05
+
+ Minimizing rosen with gsl_solver
+number of steps = 263
+norm of f(x_root) = 9.0207e-07
+x_root = 1	1
+
+ Minimizing himmel with gsl_solver 
+number of steps = 7
+norm of f(x_root) = 1.19171e-06
+x_root = 3	2

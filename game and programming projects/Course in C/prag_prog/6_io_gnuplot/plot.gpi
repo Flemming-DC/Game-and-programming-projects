@@ -1,0 +1,7 @@
+set term svg background 'white'
+set title 'plotting some data';\
+set xlabel 'x';\
+set ylabel 'y';\
+plot    'cmd.out.txt' using 1:2 with points title 'data from commandline'\
+       ,'std.out.txt' using 1:2 with points title 'data from standard output'\
+

@@ -1,0 +1,25 @@
+#include "include.h"
+
+
+
+int main(){
+
+double err_tol = 1e-5;
+gsl_vector* x = gsl_vector_alloc(2);
+gsl_vector* fx = gsl_vector_alloc(2);
+gsl_matrix* J = gsl_matrix_alloc(2,2);
+
+gsl_vector_set(x,0,10);
+gsl_vector_set(x,1,1);
+
+newton_jac(fun,x,err_tol);
+
+
+gsl_vector_set(x,0,10);
+gsl_vector_set(x,1,1);
+
+
+gsl_vector_free(x);
+
+
+return 0;}

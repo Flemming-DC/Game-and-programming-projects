@@ -1,0 +1,12 @@
+searching for energies that siatisfy the boundery condition: 
+iter =   0 E = -0.600 u =  1.551e+02 
+iter =   1 E = -0.547 u =  4.483e+01 
+iter =   2 E = -0.525 u =  1.961e+01 
+iter =   3 E = -0.508 u =  5.448e+00 
+iter =   4 E = -0.502 u =  1.055e+00 
+iter =   5 E = -0.500 u =  7.861e-02 
+iter =   6 E = -0.500 u =  1.279e-03 
+iter =   7 E = -0.500 u =  1.591e-06 
+iter =   8 E = -0.500 u =  3.219e-11 
+status = success
+r_max = 10

@@ -1,0 +1,28 @@
+
+ Minimizing rosen without broyden's update
+number of steps = 91
+norm of f(x_root) = 5.24576e-06
+x_root = 1	1	
+
+ Minimizing himmel without broyden's update
+number of steps = 25
+norm of f(x_root) = 6.04384e-06
+x_root = 3	2	
+
+ Minimizing rosen with broyden's update
+warning: maximum step number reached. minimization may have failed
+number of steps = 1000
+objective function at root = 9.3604e-09
+x_root = 0.999903   	0.999903   	
+
+ Minimizing himmel with broyden's update
+searching stops, since step-size is less than eps*|x|
+number of steps = 15
+objective function at root = 5.55041e-10
+x_root = 3   	2   	
+
+ Minimizing square_deviation with broyden's update, thereby fitting data
+searching stops, since step-size is less than eps*|x|
+number of steps = 30
+objective function at root = 2.06796
+x_root = 3.55701   	3.20543   	1.23193   	

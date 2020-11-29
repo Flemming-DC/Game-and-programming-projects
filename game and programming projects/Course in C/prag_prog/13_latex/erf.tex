@@ -1,0 +1,31 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+
+\begin{document}
+\title{The Error Function}
+\author{Flemming - 201508887}
+\date{}
+\maketitle
+\begin{abstract}
+We'll talk a little about the error-function.
+\end{abstract}
+
+\section{definition}
+
+The error function is given by:
+
+\begin{equation}
+\mathrm{erf}(x)=\frac{2}{\sqrt{\pi}}\int_0^x \exp(-x^2)\mathrm{d}x
+\end {equation}
+
+\section{illustration}
+
+Figure \ref{plot} shows the error-function.
+
+\begin{figure}
+\input{plot-cairo.tex}
+\label{plot}
+\end{figure}
+
+
+\end{document}

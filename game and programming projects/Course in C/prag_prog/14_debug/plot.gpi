@@ -1,0 +1,8 @@
+set term TERM
+set out 'OUT'
+set xlabel 'x'
+set ylabel 'atan(x)'
+set tics out
+set size 0.6,0.6
+plot [-2:2] 'out.txt' using 1:2 with lines title 'arctan(x)'
+

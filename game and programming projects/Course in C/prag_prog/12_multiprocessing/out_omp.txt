@@ -1,0 +1,6 @@
+for N=1, så fås pi=4
+for N=10, så fås pi=3.2
+for N=100, så fås pi=3.12
+for N=1000, så fås pi=3.128
+for N=10000, så fås pi=3.148
+for N=100000, så fås pi=3.14504

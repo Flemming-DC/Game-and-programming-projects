@@ -1,0 +1,5 @@
+
+ The triple integral of 1./[1-cos(x)*cos(y)*cos(z)]/pi^3 from 0 to pi along each dimension is given as:
+integral = 1.39298	error = 0.00142132
+
+ The error can be fitted to a straight line with slope 1/2 upon a log-log plot, as can be seen from the plot called plot.svg. Thus, the error must grow as O(sqrt(n)). 
